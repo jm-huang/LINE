@@ -2,11 +2,11 @@
 
 TensorFlow implementation of paper _LINE: Large-scale Information Network Embedding_ by Jian Tang, et al.
 
-##Input:
+## Input:
 * link: the the edges of graph. Each row representation an edge with format: _source_nid target_nid weight_
 * label: the node labels for evaluation. Each row represents an node's label with format: _nid lid_
 
-###Notice:
+### Notice:
 * The node id is unique for each node and is in range: [0, N) where N is the number of nodes.
 * For undirected graph, need to add reversed edges in link file.
 * The label id is unique for each node and is in range: [0, M) where M is the number of labels.
